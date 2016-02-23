@@ -9,8 +9,8 @@ preferences {
 
 metadata {
 	definition (name: "Haiku Fan Control", namespace: "System48/Smartthings/Haiku", author: "System48") {
-        capability "Actuator" 
 	capability "Switch"
+	capability "Switch Level"
         command "fanon"
         command "fanoff"
         command "setfanlevel"
