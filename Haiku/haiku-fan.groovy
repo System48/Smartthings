@@ -11,11 +11,7 @@ metadata {
 	definition (name: "Haiku Fan Control", namespace: "System48", 
     	author: "system48s@gmail.com") {
         capability "Actuator" 
-		capability "Switch"
-    
-        attribute "input", "string"
-        attribute "blocked", "number"
-        
+	capability "Switch"
         command "fanon"
         command "fanoff"
         command "setfanlevel"
