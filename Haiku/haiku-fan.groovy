@@ -8,8 +8,7 @@ preferences {
  }
 
 metadata {
-	definition (name: "Haiku Fan Control", namespace: "System48", 
-    	author: "system48s@gmail.com") {
+	definition (name: "Haiku Fan Control", namespace: "System48", author: "system48s@gmail.com") {
         capability "Actuator" 
 	capability "Switch"
         command "fanon"
